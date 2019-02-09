@@ -334,9 +334,11 @@ textarea {
   top: 0;
   z-index: 100; }
   .header__menu--button {
+    width: 70px;
+    height: 70px;
     display: none;
     margin-left: 10px;
-    margin-top: -25px; }
+    margin-top: 10px; }
   .header .button--active .header__menu--item::before {
     transform: rotate(40deg); }
   .header .button--active .header__menu--item::after {
@@ -612,7 +614,6 @@ textarea {
       padding-top: 75px;
       display: none; }
       .header__menu li {
-        width: 100%;
         margin-left: 65px;
         margin-top: 40px; }
   .header__active {

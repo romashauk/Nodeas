@@ -8,9 +8,11 @@
   top: 0;
   z-index: 100;
   &__menu--button {
+    width: 70px;
+    height: 70px;
     display: none;
     margin-left: 10px;
-    margin-top: -25px;
+    margin-top: 10px;
     @media (max-width: 900px) {
       display: block;
     }
