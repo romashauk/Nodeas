@@ -1,0 +1,37 @@
+.team {
+  background: #ffff;
+  padding-bottom: 237px;
+  .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  &__logan {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 48px;
+    text-align: center;
+    font-family: $textFont;
+    padding-top: 190px;
+  }
+  .slick {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    div {
+      text-align: center;
+    }
+  }
+  &__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 62px;
+  }
+  &__item {
+    display: flex;
+  }
+}

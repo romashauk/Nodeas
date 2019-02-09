@@ -1,0 +1,93 @@
+.touch {
+  min-height: 900px;
+  background: $Gallery;
+  .wrapper {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+  &__logan {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 48px;
+    text-align: center;
+    font-family: $textFont;
+    padding-top: 237px;
+  }
+  &__text {
+    margin-top: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  &__field {
+    width: 382px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #262626;
+    font-size: 18px;
+  }
+  &__container {
+    position: relative;
+  }
+  &__input--name {
+    position: absolute;
+    color: #959595;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    top: 15px;
+    transition: 0.5s;
+  }
+  &__input--email {
+    position: absolute;
+    color: #959595;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    top: 15px;
+    left: 68px;
+    transition: 0.5s;
+  }
+  .marg {
+    margin-left: 70px;
+  }
+  &__button {
+    margin-top: 100px;
+    width: 250px;
+    height: 60px;
+    background: #262626;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: 2px solid transparent;
+    &:hover {
+      color: black;
+      background: white;
+      border: 2px solid black;
+    }
+  }
+}
+.active {
+  transform: translateY(-20px);
+  font-size: 14px;
+}

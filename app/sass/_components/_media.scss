@@ -1,0 +1,91 @@
+@media (max-width: 960px) {
+  .header {
+    padding: 10px;
+    .wrapper {
+      flex-wrap: wrap;
+      max-width: 100%;
+      position: relative;
+      .logo {
+        margin-left: 35px;
+        transform: scale(0.8);
+      }
+    }
+    &__menu {
+      margin-left: 0;
+      min-width: 100%;
+      flex-wrap: wrap;
+      padding-top: 75px;
+      display: none;
+      li {
+        width: 100%;
+        margin-left: 65px;
+        margin-top: 40px;
+      }
+    }
+  }
+  .header__active {
+    height: 100vh;
+  }
+  .preview {
+    min-height: 710px;
+    overflow: hidden;
+    .wrapper {
+      padding-top: 212px;
+    }
+    &__logan {
+      font-size: 36px;
+    }
+  }
+  .team {
+    min-height: 400px;
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__logan {
+      padding-top: 55px;
+    }
+    .slick {
+      width: 80%;
+    }
+  }
+  .touch {
+    height: 570px;
+    padding: 10px;
+    &__field {
+      width: 300px;
+    }
+    form {
+      display: block;
+    }
+    &__logan {
+      padding-top: 50px;
+    }
+    .marg {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+    &__input--email {
+      left: 0;
+      top: 30px;
+    }
+  }
+  .footer {
+    min-height: 400px;
+    &__logan {
+      padding-top: 50px;
+    }
+    &__text {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    &__contacts {
+      flex-wrap: wrap;
+      a {
+        width: 100%;
+        margin-top: 50px;
+      }
+    }
+  }
+}

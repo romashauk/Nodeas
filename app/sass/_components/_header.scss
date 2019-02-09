@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.header {
+  background: $MineShaft;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  &__menu--button {
+    display: none;
+    margin-left: 10px;
+    margin-top: -25px;
+    @media (max-width: 900px) {
+      display: block;
+    }
+  }
+  .button--active .header__menu--item::before {
+    transform: rotate(40deg);
+  }
+  .button--active .header__menu--item::after {
+    transform: rotate(-40deg);
+  }
+  .button--active .header__menu--item {
+    height: 0;
+  }
+  &__menu--item {
+    width: 50px;
+    height: 3px;
+    background: white;
+    transition: 1s;
+  }
+  &__menu--item::before {
+    width: 50px;
+    height: 3px;
+    background: white;
+    transition: 1s;
+    content: '';
+    position: absolute;
+    transform: translateY(15px);
+  }
+  &__menu--item::after {
+    width: 50px;
+    height: 3px;
+    background: white;
+    transition: 1s;
+    position: absolute;
+    content: '';
+    transform: translateY(30px);
+  }
+  .wrapper {
+    max-width: 960px;
+    min-height: 80px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+  }
+  &__menu {
+    display: flex;
+    min-width: 608px;
+    margin-left: 218px;
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: $textFont;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    transition: 0.5s;
+    &:hover {
+      color: yellow;
+    }
+  }
+}

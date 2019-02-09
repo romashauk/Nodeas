@@ -1,0 +1,12 @@
+section.touch#touch
+  .wrapper
+    h1.touch__logan Please, enter required info
+    p.touch__text So we can get in touch with you
+    form(action="", method="post")
+      div.touch__container
+          input.touch__field.first(type="text", name="name")
+          .touch__input--name Name
+      div.touch__container          
+          input.touch__field.marg(type="email", name="email")
+          .touch__input--email Email
+      input.touch__button(type="button", value="Send")

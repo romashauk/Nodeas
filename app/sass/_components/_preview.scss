@@ -1,0 +1,70 @@
+.preview {
+  min-height: 820px;
+  position: relative;
+  background: $Gallery;
+  .wrapper {
+    margin: 0 auto;
+    max-width: 642px;
+    padding-top: 394px;
+    z-index: 6;
+    position: relative;
+  }
+  &__logan {
+    font-family: $textFont;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 48px;
+    text-align: center;
+    z-index: 3;
+  }
+  &__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 54px;
+  }
+  .anim {
+    height: 120px;
+    background: #f7876f;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    right: 100%;
+    transition: 5s;
+  }
+  .anim1 {
+    top: 100px;
+    transition: 4.5s;
+  }
+  .anim2 {
+    top: 200px;
+    transition: 4s;
+  }
+  .anim3 {
+    top: 300px;
+    transition: 3.5s;
+  }
+  .anim4 {
+    top: 400px;
+    transition: 3s;
+  }
+  .anim5 {
+    top: 500px;
+    transition: 2.5s;
+  }
+  .anim6 {
+    top: 600px;
+    transition: 2s;
+  }
+  .anim7 {
+    top: 700px;
+    transition: 1.5s;
+  }
+}
+.right {
+  right: 0;
+}

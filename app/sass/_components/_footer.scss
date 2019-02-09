@@ -1,0 +1,42 @@
+.footer {
+  min-height: 900px;
+  .wrapper {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  &__logan {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 48px;
+    text-align: center;
+    color: #262626;
+    font-family: $textFont;
+    padding-top: 357px;
+  }
+  &__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    margin-top: 24px;
+  }
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    a {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: bold;
+      line-height: normal;
+      font-size: 24px;
+      text-align: center;
+      color: #262626;
+      font-family: $textFont;
+    }
+  }
+}
