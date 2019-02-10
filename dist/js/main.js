@@ -41,3 +41,7 @@ $('.header__menu').on('click', function() {
     $('.header__menu--button').removeClass('button--active');
   }
 });
+$('.touch__button').on('click', () => {
+  let textValue = $('.first').val();
+  $.post('./php/server.php', { text: textValue });
+});
